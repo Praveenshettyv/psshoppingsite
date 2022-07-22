@@ -1,0 +1,49 @@
+.Login_page_Main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(193, 197, 182);
+    text-align: center;
+}
+.imgsss{
+    width: 50px;
+}
+.Sub_Login_div{
+    width: 300px;
+    height: auto;
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+@media  (min-width: 480px) {
+    .Sub_Login_div{
+        width: 300px;
+        height: auto;
+        display: flex;
+        margin-left: 38%;
+        margin-top: 10%;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+}
+.Modal{
+    width: 284px;
+    border: 9px solid #2d2a1c;
+    height: 266px;
+}
+.Modal input {
+    width: 259px;
+    height: 52px
+}
+.Modal button {
+    width: 266px;
+    height: 52px
+}
+.password {
+    border: 1px solid black;
+    width: 31px;
+    margin-left: 40%;
+    background: white;
+}

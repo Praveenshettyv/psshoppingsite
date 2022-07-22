@@ -1,0 +1,39 @@
+.footer_cls {
+  background-color: #594040;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
+.a_tag_footer {
+  color: #c8cbcc;
+  text-decoration: none;
+  font-family: cursive;
+}
+.footer_clsss {
+  display: flex;
+  height: 82px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image_mensss {
+  width: 100%;
+  height: auto;
+}
+.mail {
+  float: right;
+  color: #c8cbcc;
+}
+.social_icon {
+  display: flex;
+  width: 98px;
+  float: right;
+  margin-left: 46%;
+  justify-content: flex-end;
+}
+.Main_body {
+  height: 380px;
+  text-align: center;
+}

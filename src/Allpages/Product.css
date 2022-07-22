@@ -1,0 +1,25 @@
+.Selected_main_div {
+  width: 100%;
+  height: 480px;
+  background-color: white;
+}
+.selected_images {
+  width: 60%;
+  height: 380px;
+}
+.sub_items {
+  display: flex;
+}
+.selected_items_data {
+  width: 40%;
+  line-height: 30px;
+}
+.selected_images img {
+  width: 270px;
+  margin-left: 139px;
+}
+@media all and (max-width: 480px) {
+  .selected_images {
+    float: left;
+  }
+}

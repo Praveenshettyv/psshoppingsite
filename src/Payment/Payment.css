@@ -1,0 +1,32 @@
+.Main_body_cls {
+  padding-left: 40%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+.Main_discountcode{
+  width: 300px;
+  display: flex;
+}
+.Atm_deatils{
+  width: 300px;
+}
+.Main_discountcode button{
+  width: 80px;
+  color: white;
+}
+.Main_body_cls input{
+ width: 100%;
+  color: white;
+}
+.Number_items{
+  font-size: inherit;
+}
+.Number_items span{
+  color: red;
+}
+.Amount_html{
+  font-size: xx-large;
+}
+.Amount_html span{
+ color: red;
+}

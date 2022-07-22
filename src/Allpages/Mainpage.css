@@ -1,0 +1,69 @@
+.images {
+  width: 300px;
+  height: 350px;
+}
+.items_main_dev {
+  width: 300px;
+  height: 500px;
+  border-radius: 0px;
+  background-color: white;
+  margin-bottom: 25px;
+  margin: 0.3rem;
+}
+.sub_elements {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.all_items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.no_emi {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.button_addtocart {
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 33, 33);
+  margin-left: 5%;
+  width: 90%;
+}
+.order_slip {
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: space-around;
+}
+.Main_cls {
+  display: flex;
+}
+.left_cls {
+  width: 78%;
+}
+.right_cls {
+  width: 22%;
+  position: fixed;
+  right: 0;
+}
+.item_title {
+  font-weight: bold;
+}
+.add_items_incart {
+  height: 360px;
+  text-align: center;
+  line-height: 360px;
+}
+.items_main_dev a {
+  color: black;
+}
+.items_main_dev a:hover {
+  color: black;
+}
