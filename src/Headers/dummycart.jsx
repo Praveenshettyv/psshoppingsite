@@ -12,8 +12,8 @@ export default function Cart() {
         <Helmet>
           <title>CART PRODUCTS</title>
         </Helmet>
-        <AiOutlineShoppingCart className="Cart_img" />
-        <span className="Cart_items">{Object.keys(select).length}</span>
+        {/* <AiOutlineShoppingCart className="Cart_img" />
+        <span className="Cart_items">{Object.keys(select).length}</span> */}
       </div>
     </div>
   );

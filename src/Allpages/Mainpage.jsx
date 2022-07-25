@@ -3,6 +3,7 @@ import "./Mainpage.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { updatethecart } from "../redux/action/index";
+import {Helmet} from "react-helmet";
 export default function Mainpage() {
   const disptach = useDispatch();
   function selecteditemsss(id) {
@@ -11,6 +12,9 @@ export default function Mainpage() {
   var select = useSelector((state) => state.products);
   return (
     <div className="all_items">
+      <Helmet>
+        <title>PS MART HOME</title>
+      </Helmet>
       {Array.from(select)?.map((data) => {
         return (
           <div key={data.id} className="items_main_dev">

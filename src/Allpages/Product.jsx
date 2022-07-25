@@ -1,6 +1,7 @@
 import React from 'react'
 import {useDispatch,useSelector} from 'react-redux'
 import {updatethecart} from '../redux/action/index'
+import {Helmet} from "react-helmet";
 import './Product.css'
 export default function Product() {
   const disptach=useDispatch();
@@ -13,6 +14,7 @@ export default function Product() {
   }
   return (
     <div className='Selected_main_div'>
+      <Helmet><title>SINGLE PRODUCTS</title></Helmet>
          {Array.from(selected_data)?.map((data)=>{
           if(data.id==lastSegment){
             return <div key={data.id} className="sub_items">

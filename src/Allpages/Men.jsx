@@ -3,6 +3,7 @@ import "./Mainpage.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { updatethecart } from "../redux/action/index";
+import {Helmet} from "react-helmet";
 export default function Men() {
   const disptach = useDispatch();
   function Menselected(id) {
@@ -11,6 +12,7 @@ export default function Men() {
   const mens_data = useSelector((state) => state.products);
   return (
     <div className="all_items">
+      <Helmet><title>MENS PRODUCTS</title></Helmet>
       {Array.from(mens_data)?.map((data) => {
         if (data.category == "men's clothing") {
           return (

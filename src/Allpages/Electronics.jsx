@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { updatethecart } from "../redux/action/index";
+import {Helmet} from "react-helmet";
 export default function Electronics() {
   const disptach = useDispatch();
   function Electronicsselected(id) {
@@ -10,6 +11,7 @@ export default function Electronics() {
   const electronic_data = useSelector((state) => state.products);
   return (
     <div className="all_items">
+      <Helmet><title>ELECTRONIC PRODUCTS</title></Helmet>
       {Array.from(electronic_data)?.map((data) => {
         if (data.category == "electronics") {
           return (
